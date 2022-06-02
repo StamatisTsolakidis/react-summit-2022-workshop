@@ -1,7 +1,8 @@
 import React from "react"
+import {ComponentCtaModel} from "../models/ComponentCtaModel";
 
-const ComponentCta = ({ elements, system }) => {
-    
+const ComponentCta: React.FC<ComponentCtaModel> = ({ elements, system }) => {
+
     return (
     <>
         <svg className="wave-top" viewBox="0 0 1439 147" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">

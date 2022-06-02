@@ -1,7 +1,8 @@
 import { IContentItem } from "@kentico/kontent-delivery"
 import React from "react"
+import {INavComponents} from "../interfaces/INavComponents";
 
-const ComponentNav = ({data}) => {
+const ComponentNav: React.FC<INavComponents> = ({data}) => {
 
     return (
             <nav id="header" className="fixed w-full z-30 top-0 text-white">
